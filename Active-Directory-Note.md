@@ -11,11 +11,14 @@
 ## Install Active Directory Domain Services
 - Server Manager - add roles and features
 - Promote the server to a domain controller
- - Creates the domain.com
- - Add a new forest
+  - Creates the domain.com
+  - Add a new forest
 ## Create Domain Admin Account
 - Open Active Directory Users and Computers
 - Create an organization Unit for the Admin Account
 - Make the User account created Admin
 ## Install and Configure RAS(Remote Access Server) /NAT
-- 
+- Server Manager - add roles and features
+- Next -- Server Roles [*] Remote Access
+- Install Routing (Role services)
+- Tools-Routing and Remote Access-DC(local)
