@@ -2,7 +2,7 @@
 - Install Windows Server 2019
 - Install Winsdows 10
 ## Setup Server Network Adapters
-![image alt text](../../Nonsense/Setup%20Server%20Network%20Adapters.png)
+![image alt text](https://drive.google.com/file/d/1Fa_coEYMque_MebF1Uuj1Dboza5Mu-Ii/view?usp=sharing)
 - Assingn Ip Address to internal adapter
   - Give the Ip Address 172.16.0.1 Subnet mask 255.255.255.0 Defult gateway -
   - Prefered DNS - 127.0.0.1
@@ -27,6 +27,9 @@
 - Next -- Server Roles [*] DHCP
 - Tools-DHCP(setup scope)
   - IPv4-Newscope
+- Ipv4-Server Options-Config- [*]003 Router
+  -IP address 172.16.0.1-Add-Apply
+- Right click dc.domain...-All Tasks-Restart
 ## Enable Browsing on the DC
 - Sever Manager-Configure this local server
 - Turn off IE Enhanced Security Configuration
@@ -34,3 +37,13 @@
 - Download the powershell script to Desktop
 - Open Windows PowerShell ISE
 - Change to the directory 
+- Click play
+## Install Window 10 & join to Domain
+- Settings-About-Rename this PC(advanced)
+- click Change
+- Rename Computer name "CLIENT1"
+- Rename Member of "mydomain.com"
+- Type username & Password of admin or users allowed
+- Restart
+
+
