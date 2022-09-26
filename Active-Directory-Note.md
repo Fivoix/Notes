@@ -22,3 +22,15 @@
 - Next -- Server Roles [*] Remote Access
 - Install Routing (Role services)
 - Tools-Routing and Remote Access-DC(local)
+## Install and Configure DHCP
+- Server Manager - add roles and features
+- Next -- Server Roles [*] DHCP
+- Tools-DHCP(setup scope)
+  - IPv4-Newscope
+## Enable Browsing on the DC
+- Sever Manager-Configure this local server
+- Turn off IE Enhanced Security Configuration
+## PowerShell Scripts from GitHub
+- Download the powershell script to Desktop
+- Open Windows PowerShell ISE
+- Change to the directory 
