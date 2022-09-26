@@ -2,7 +2,7 @@
 - Install Windows Server 2019
 - Install Winsdows 10
 ## Setup Server Network Adapters
-![image alt text](https://drive.google.com/file/d/1Fa_coEYMque_MebF1Uuj1Dboza5Mu-Ii/view?usp=sharing)
+![Setup image](C:\Users\ainaf\OneDrive\Desktop\Git\Notes\Setup Server Network Adapters.png)
 - Assingn Ip Address to internal adapter
   - Give the Ip Address 172.16.0.1 Subnet mask 255.255.255.0 Defult gateway -
   - Prefered DNS - 127.0.0.1
