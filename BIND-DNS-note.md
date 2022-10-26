@@ -34,3 +34,6 @@
     - 'systemctl restart named'
     - check 'ss -tulpn'
     - Ip address match with the vm 'ip addr sh'
+# Testing
+- Ds-DemoClient
+    - Change DNS address
