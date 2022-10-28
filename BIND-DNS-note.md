@@ -76,3 +76,6 @@
 - Ds-DemoClient
 - 'ping kvm01.femilab.com'
 - 'ping ns-demo.femilab.com'
+# Reference Links
+- Part 1 - https://youtu.be/yoIxyMypuHk
+- Part 2 - https://youtu.be/M_lBU0iyBpA
